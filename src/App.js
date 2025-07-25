@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './components/Home';
-
+import About from "./components/About";
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Blog from './components/Blog';
@@ -13,7 +13,7 @@ function App() {
         <Navbar />
       </div>
       <Home />
-      
+       <About />
       <Courses />
       <Blog /> 
        <Footer />
