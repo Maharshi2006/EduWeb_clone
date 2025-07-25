@@ -1,6 +1,9 @@
+
 import './App.css';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import Blog from './components/Blog';
+import Courses from './components/Courses';
 
 function App() {
   return (
@@ -8,7 +11,15 @@ function App() {
       <div>
         <Navbar />
       </div>
-      <Footer />
+      <Courses />
+      <Blog /> 
+      
+
+
+
+
+
+     <Footer />
     </>
   );
 }
