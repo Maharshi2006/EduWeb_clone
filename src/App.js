@@ -1,19 +1,26 @@
-// src/App.jsx
 
-import React from 'react';
+import './App.css';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 import Blog from './components/Blog';
 import Courses from './components/Courses';
-import './index.css'; 
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <div>
+        <Navbar />
+      </div>
       <Courses />
       <Blog /> 
       
-      
-    </div>
-    
+
+
+
+
+
+     <Footer />
+    </>
   );
 }
 
